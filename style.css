@@ -6,6 +6,8 @@
 h1 {
   font-family: Minecraft;
   text-align: center;
+  font-size: 50px;
+  color: white;
 }
 .recipe {
   width: 400px;
