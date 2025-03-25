@@ -14,3 +14,11 @@ h1 {
   background-color: white;
   border-radius: 8px;
 }
+.recipe:hover {
+  width: 42%;
+  border: 5px solid black;
+  color: black;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
