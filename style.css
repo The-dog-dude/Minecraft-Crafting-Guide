@@ -30,3 +30,15 @@ h1 {
 body {
   background-image: url("background.png");
 }
+.content {
+  text-align: center;
+  color: white;
+}
+.recipeimg {
+  width: 80%
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+}
