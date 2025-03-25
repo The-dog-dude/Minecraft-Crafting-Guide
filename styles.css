@@ -1,0 +1,7 @@
+@font-face {
+  font-family: Minecraft;
+  src: url(minecrafter-font.zip);
+}
+h1 {
+  font-family: Minecraft;
+}
