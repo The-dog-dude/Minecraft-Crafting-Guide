@@ -5,7 +5,12 @@
 }
 h1 {
   font-family: Minecraft;
+  text-align: center;
 }
 .recipe {
   width: 40%;
+  border: 5px solid black;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
 }
