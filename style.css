@@ -26,5 +26,5 @@ h1 {
   text-align: center;
 }
 body {
-  backround-image: "background.png";
+  backround-image: url("background.png");
 }
