@@ -52,13 +52,13 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
-.material-link {
+.Material-link {
   color: white;
   text-decoration: underline;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
-.material-link:hover {
+.Material-link:hover {
   color: white;
 }
