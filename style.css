@@ -38,6 +38,7 @@ body {
   width: 50%;
   position: relative;
   left: 50%;
+  transform: translateX(-50%);
   border: 1px solid #ebebeb;
   border-radius: 8px;
 }
