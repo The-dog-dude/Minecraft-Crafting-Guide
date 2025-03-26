@@ -49,8 +49,6 @@ body {
 .recipeimg {
   width: 30%;
   position: relative;
-  left: 50%;
-
   border: 1px solid #ebebeb;
   border-radius: 8px;
 }
