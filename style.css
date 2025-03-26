@@ -36,7 +36,7 @@ body {
 }
 .recipeimg {
   width: 50%;
-  position: absolute;
+  position: relative;
   left: 50%;
   border: 1px solid #ebebeb;
   border-radius: 8px;
