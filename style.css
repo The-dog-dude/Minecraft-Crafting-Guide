@@ -1,6 +1,7 @@
 @font-face {
   font-family: Minecraft;
-  src: url(Minecrafter-MA3Dw.ttf);
+  src: url(Minecrafter-MA3Dw.ttf
+);
 }
 
 h1 {
@@ -11,46 +12,41 @@ h1 {
 }
 
 .recipe {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border: 5px solid black;
   color: black;
   background-color: white;
   border-radius: 8px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
 }
 
 .recipe:hover {
+  width: 400px;
+  height: 400px;
+  border: 5px solid black;
+  color: black;
   background-color: #f2f2f2;
-}
-
-.recipe img {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
+  border-radius: 8px;
+  text-align: center;
 }
 
 body {
   background-image: url("background.png");
-  text-align: center;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 50px;
 }
 
 .content {
   text-align: center;
   color: white;
+}
+
+.recipeimg {
+  width: 30%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
 }
 
 .back {
