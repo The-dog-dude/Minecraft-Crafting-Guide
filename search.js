@@ -20,8 +20,9 @@ document.getElementById('search-btn').addEventListener('click', function() {
   { name: "Boat", img: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e5/Oak_Boat_%28item%29_JE6.png/revision/latest/scale-to-width/360?cb=20220413181403", link: "boat.html" },
   { name: "Ladder", img: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/af/Ladder_%28texture%29_JE3_BE2.png/revision/latest?cb=20200922000708", link: "ladder.html" },
   { name: "Glowstone", img: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a5/Glowstone_JE4_BE2.png/revision/latest/scale-to-width/360?cb=20220115125134", link: "glowstone.html" },
-  { name: "Snow Block", img: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3c/Snow_Block_JE2_BE2.png/revision/latest/scale-to-width/360?cb=20200123210742", link: "snowblock.html" },
-  { name: "TNT", img: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/34/TNT_JE3_BE2.png/revision/latest/scale-to-width/360?cb=20200804163144", link: "tnt.html" }
+  { name: "Snow Block", img: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dc/Snow_Block_JE2_BE2.png/revision/latest?cb=20200903061436", link: "snowblock.html" },
+  { name: "TNT", img: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a2/TNT_JE3_BE2.png/revision/latest?cb=20210110120939", link: "tnt.html" }
+];
     ];
   
     return recipes.filter(recipe => recipe.name.toLowerCase().includes(query));
