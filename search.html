@@ -13,5 +13,31 @@
   </div>
   <div id="search-results"></div>
   <script src="search.js"></script>
+  <button class="menu-button" onclick="toggleMenu()">☰</button>
+
+<div class="sidebar" id="sidebar">
+    <button class="close-button" onclick="toggleMenu()">×</button>
+
+    <!-- Search Button -->
+    <a href="search.html">
+        <button class="search-button">⌕</button>
+    </a>
+
+    <a href="index.html">Basic</a>
+    <a href="404.html">-----</a>
+    <a href="404.html">-----</a>
+    <a href="404.html">-----</a>
+</div>
+
+<script>
+function toggleMenu() {
+    var sidebar = document.getElementById("sidebar");
+    if (sidebar.style.left === "0px") {
+        sidebar.style.left = "-250px";
+    } else {
+        sidebar.style.left = "0px";
+    }
+}
+</script>
 </body>
 </html>
