@@ -15,6 +15,37 @@
         <p>Log</p>
         <a href="index.html""><button class="back">Back</button></a>
       </div>
+      <button class="favorite-button" onclick="toggleFavorite()">❤</button>
+      <script>
+        function toggleFavorite() {
+            let recipe = {
+                title: document.querySelector("h1").innerText, // Get recipe title
+                url: window.location.href
+            };
+            
+            let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+            let index = favorites.findIndex(fav => fav.url === recipe.url);
+        
+            if (index === -1) {
+                favorites.push(recipe);
+                document.querySelector(".favorite-button").classList.add("favorited");
+            } else {
+                favorites.splice(index, 1);
+                document.querySelector(".favorite-button").classList.remove("favorited");
+            }
+        
+            localStorage.setItem("favorites", JSON.stringify(favorites));
+        }
+        
+        window.onload = function() {
+            let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+            let currentUrl = window.location.href;
+            if (favorites.some(fav => fav.url === currentUrl)) {
+                document.querySelector(".favorite-button").classList.add("favorited");
+            }
+        };
+        </script>
+        
     </main>
   </body>
 </html>

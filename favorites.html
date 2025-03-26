@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favorites</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Favorite Recipes</h1>
+    <div id="favorites-list"></div>
+
+    <script>
+    function loadFavorites() {
+        let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+        let container = document.getElementById("favorites-list");
+        container.innerHTML = "";
+
+        if (favorites.length === 0) {
+            container.innerHTML = "<p>No favorites yet!</p>";
+            return;
+        }
+
+        favorites.forEach(recipe => {
+            let div = document.createElement("div");
+            div.innerHTML = `<a href="${recipe.url}">${recipe.title}</a> 
+                             <button onclick="removeFavorite('${recipe.url}')">❌</button>`;
+            container.appendChild(div);
+        });
+    }
+
+    function removeFavorite(url) {
+        let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+        favorites = favorites.filter(fav => fav.url !== url);
+        localStorage.setItem("favorites", JSON.stringify(favorites));
+        loadFavorites();
+    }
+
+    window.onload = loadFavorites;
+    </script>
+</body>
+</html>

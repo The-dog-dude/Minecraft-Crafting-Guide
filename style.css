@@ -228,3 +228,18 @@ body {
   width: 100px;
   height: 100px;
 }
+
+.favorite-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: gray;
+}
+
+.favorite-button.favorited {
+  color: red;
+}
