@@ -33,6 +33,10 @@ body {
 .content {
   text-align: center;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
 .recipeimg {
   width: 30%;
@@ -43,9 +47,6 @@ body {
   border-radius: 8px;
 }
 .content button {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   width: 30px;
   height: 30px;
   border: 1px solid #ebebeb;
