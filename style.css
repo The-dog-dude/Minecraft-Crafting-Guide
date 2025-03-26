@@ -11,15 +11,18 @@ h1 {
 }
 
 .recipe {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border: 5px solid black;
   color: black;
   background-color: white;
   border-radius: 8px;
   text-align: center;
-  display: inline-block; /* Keeps buttons side by side */
-  margin: 10px; /* Adds space between buttons */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
 
 .recipe:hover {
@@ -27,21 +30,22 @@ h1 {
 }
 
 .recipe img {
-  width: 300px; /* Resize to ensure uniform size */
-  height: 300px;
+  width: 200px;
+  height: 200px;
   object-fit: contain;
-  display: block;
 }
 
 body {
   background-image: url("background.png");
-  text-align: center; /* Centers all content on the page */
+  text-align: center;
 }
 
 main {
   display: flex;
-  justify-content: center; /* Centers buttons in the middle of the page */
-  flex-wrap: wrap; /* Allows buttons to wrap to the next line on smaller screens */
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 .content {
