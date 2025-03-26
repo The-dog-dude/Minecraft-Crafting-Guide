@@ -19,8 +19,9 @@
       <script>
         function toggleFavorite() {
             let recipe = {
-                title: document.querySelector("h1").innerText, // Get recipe title
-                url: window.location.href
+                title: document.querySelector("h1").innerText, 
+                url: window.location.href,
+                img: document.querySelector(".recipe img").src 
             };
             
             let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
@@ -45,6 +46,7 @@
             }
         };
         </script>
+        
         
     </main>
   </body>

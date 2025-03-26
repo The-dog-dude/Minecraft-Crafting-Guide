@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Favorite Recipes</h1>
-    <div id="favorites-list"></div>
+    <div id="favorites-list" class="recipe-container"></div>
 
     <script>
     function loadFavorites() {
@@ -21,10 +21,29 @@
         }
 
         favorites.forEach(recipe => {
-            let div = document.createElement("div");
-            div.innerHTML = `<a href="${recipe.url}">${recipe.title}</a> 
-                             <button onclick="removeFavorite('${recipe.url}')">❌</button>`;
-            container.appendChild(div);
+            let button = document.createElement("button");
+            button.className = "recipe";
+
+            let img = document.createElement("img");
+            img.src = recipe.img;
+            img.alt = recipe.title;
+
+            let title = document.createElement("h4");
+            title.textContent = recipe.title;
+
+            let link = document.createElement("a");
+            link.href = recipe.url;
+            link.appendChild(button);
+
+            let removeBtn = document.createElement("button");
+            removeBtn.className = "remove-favorite";
+            removeBtn.textContent = "❌";
+            removeBtn.onclick = () => removeFavorite(recipe.url);
+
+            button.appendChild(img);
+            button.appendChild(title);
+            container.appendChild(link);
+            container.appendChild(removeBtn);
         });
     }
 
