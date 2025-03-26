@@ -23,7 +23,6 @@ document.getElementById('search-btn').addEventListener('click', function() {
   { name: "Snow Block", img: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dc/Snow_Block_JE2_BE2.png/revision/latest?cb=20200903061436", link: "snowblock.html" },
   { name: "TNT", img: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a2/TNT_JE3_BE2.png/revision/latest?cb=20210110120939", link: "tnt.html" }
 ];
-    ];
   
     return recipes.filter(recipe => recipe.name.toLowerCase().includes(query));
   }
