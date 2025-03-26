@@ -35,10 +35,17 @@ body {
   color: white;
 }
 .recipeimg {
-  width: 50%;
+  width: 30%;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
   border: 1px solid #ebebeb;
   border-radius: 8px;
+}
+.content button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
 }
