@@ -26,24 +26,26 @@
       
       <button class="menu-button" onclick="toggleMenu()">☰</button>
 
-      <a href="search.html">
-        <button class="search-button">⌕</button>
-    </a>
-
-<div class="sidebar" id="sidebar">
-    <button class="close-button" onclick="toggleMenu()">×</button>
-
-
-    <a href="index.html">Basic</a>
-    <a href="blocks.html">Blocks</a>
-    <a href="404.html">-----</a>
-    <a href="404.html">-----</a>
-</div>
-
-
-
-<script src="sidebar.js"></script>
+      <div class="sidebar" id="sidebar">
+          <button class="close-button" onclick="toggleMenu()">×</button>
+          <a href="index.html">Basic</a>
+          <a href="#.html">-----</a>
+          <a href="#.html">-----</a>
+          <a href="#.html">-----</a>
+      </div>
 
     </main>
+
+    <script>
+    function toggleMenu() {
+        var sidebar = document.getElementById("sidebar");
+        if (sidebar.style.left === "0px") {
+            sidebar.style.left = "-250px";
+        } else {
+            sidebar.style.left = "0px";
+        }
+    }
+    </script>
+
   </body>
 </html>
