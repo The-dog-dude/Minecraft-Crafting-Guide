@@ -90,6 +90,19 @@ body {
   border-radius: 5px;
 }
 
+.menu-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -127,16 +140,6 @@ body {
   cursor: pointer;
 }
 
-.search-button {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 30px;
-  background: transparent;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
 
 .error-page {
   background-image: url("background.png");
