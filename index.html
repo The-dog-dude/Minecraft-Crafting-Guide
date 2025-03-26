@@ -18,6 +18,30 @@
       <a href="furnace.html"><button class="recipe"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c5/Lit_Furnace_%28S%29.gif/revision/latest?cb=20200831134706" alt="Minecraft Furnace"><br><h4>Furnace</h4></button></a>
       <a href="woodslabs.html"><button class="recipe"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/ac/Oak_Slab_JE5_BE2.png/revision/latest/scale-to-width/360?cb=20240729071106" alt="Minecraft Wood Slab"><br><h4>Wood Slabs</h4></button></a>
       <a href="otherslabs.html"><button class="recipe"><img src="https://minecraft.wiki/images/Cobblestone_Slab_JE4_BE3.png?38e0e" alt="Minecraft Cobblestone Slab"><br><h4>Other Slabs</h4></button></a>
+      <a href="fence.html"><button class="recipe"><img src="https://static.wikitide.net/btawiki/3/31/Fence_post.png" alt="Minecraft Fence"><br><h4>Fence</h4></button></a>
+      <a href="sign.html"><button class="recipe"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/82/Oak_Sign_JE3.png/revision/latest/scale-to-width/360?cb=20211013161856" alt="Minecraft Sign"><br><h4>Sign</h4></button></a>
+      <a href="boat.html"><button class="recipe"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e5/Oak_Boat_%28item%29_JE6.png/revision/latest/scale-to-width/360?cb=20220413181403" alt="Minecraft Boat"><br><h4>Boat</h4></button></a>
+      <a href="ladder.html"><button class="recipe"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/af/Ladder_%28texture%29_JE3_BE2.png/revision/latest?cb=20200922000708" alt="Minecraft Ladder"><br><h4>Ladder</h4></button></a>
+      <button class="menu-button" onclick="toggleMenu()">☰</button>
+
+      <div class="sidebar" id="sidebar">
+          <button class="close-button" onclick="toggleMenu()">×</button>
+          <a href="index.html">Home</a>
+          <a href="planks.html">Planks</a>
+          <a href="sticks.html">Sticks</a>
+          <a href="craftingtable.html">Crafting Table</a>
+      </div>
+  
+      <script>
+      function toggleMenu() {
+          var sidebar = document.getElementById("sidebar");
+          if (sidebar.style.right === "0px") {
+              sidebar.style.right = "-250px";
+          } else {
+              sidebar.style.right = "0px";
+          }
+      }
+      </script>
     </main>
   </body>
 </html>
