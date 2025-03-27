@@ -239,7 +239,7 @@ h1 {
 }
 
 #recipe-type {
-  padding: 8px;
+  padding: 10px 20px;
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -248,7 +248,7 @@ h1 {
 }
 
 #recipe-type option {
-  padding: 8px;
+  padding: 10px 20px;
 }
 
 #recipe-type:hover {
