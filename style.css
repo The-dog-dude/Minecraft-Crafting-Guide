@@ -248,7 +248,7 @@ h1 {
 }
 
 #recipe-type option {
-  padding: 10px 20px;
+  padding: 0px 0px 10px 20px;
 }
 
 #recipe-type:hover {
