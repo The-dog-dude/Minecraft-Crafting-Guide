@@ -238,3 +238,19 @@ h1 {
   margin-top: 50px;
 }
 
+#recipe-type {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+}
+
+#recipe-type option {
+  padding: 8px;
+}
+
+#recipe-type:hover {
+  border-color: #4CAF50;
+}
