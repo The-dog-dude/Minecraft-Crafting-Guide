@@ -113,3 +113,10 @@
   .mc-button.lang .title {
     padding-bottom: 0;
   }
+
+  .Minecraftimg {
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
