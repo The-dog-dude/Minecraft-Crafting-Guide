@@ -369,3 +369,7 @@ h1 {
 .tooltip-1:hover .tooltiptext, .tooltip-2:hover .tooltiptext, .tooltip-3:hover .tooltiptext, .tooltip-4:hover .tooltiptext, .tooltip-5:hover .tooltiptext, .tooltip-6:hover .tooltiptext, .tooltip-7:hover .tooltiptext, .tooltip-8:hover .tooltiptext, .tooltip-9:hover .tooltiptext, .tooltip-output:hover .tooltiptext {
   visibility: visible;
 }
+
+#aaa {
+  cursor: wait;
+}
