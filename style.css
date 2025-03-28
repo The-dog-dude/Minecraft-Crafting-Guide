@@ -3,6 +3,11 @@
   src: url(Minecrafter-MA3Dw.ttf);
 }
 
+@font-face {
+  font-family: Minecraftia;
+  src: url(minecraft.woff);
+}
+
 h1, h2 {
   font-family: Minecraft;
   text-align: center;
@@ -386,7 +391,29 @@ h1 {
 
 .achievement {
   font-family: Minecraftia;
-  color: white;
+  color: rgb(225, 225, 225);
   background-color: black;
-  border-radius: 10;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 80px;
+}
+
+.achievementcontent {
+  font-size: 20px;
+  color: rgb(226, 226, 226);
+}
+
+h3, h4, h5, h6, p {
+  font-family: Minecraftia;
+}
+
+.achiveimg {
+  width: 50%;
+  position: relative;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+}
+
+.achievedescription {
+  color: rgb(226, 226, 226);
 }
