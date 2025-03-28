@@ -254,3 +254,118 @@ h1 {
 #recipe-type:hover {
   border-color: #4CAF50;
 }
+
+.grid {
+  position: absolute;
+  left: 40.1%;
+  top: 5px;
+  z-index: 1;
+}
+
+.item-grid {
+  width: 30px;
+  position: absolute;
+  z-index: 2;
+}
+
+.tooltip-1 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 41.3%;
+  top: 20px;
+}
+
+.tooltip-2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 44%;
+  top: 20px;
+}
+
+.tooltip-3 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 46.8%;
+  top: 20px;
+}
+
+.tooltip-4 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 41.3%;
+  top: 56px;
+}
+
+.tooltip-5 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 44%;
+  top: 56px;
+}
+
+.tooltip-6 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 46.8%;
+  top: 56px;
+}
+
+.tooltip-7 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 41.3%;
+  top: 91px;
+}
+
+.tooltip-8 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 44%;
+  top: 91px;
+}
+
+.tooltip-9 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 46.8%;
+  top: 91px;
+}
+
+.tooltip-output {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 55.7%;
+  top: 56px;
+}
+
+/* Tooltip text */
+.tooltip-1 .tooltiptext, .tooltip-2 .tooltiptext, .tooltip-3 .tooltiptext, .tooltip-4 .tooltiptext, .tooltip-5 .tooltiptext, .tooltip-6 .tooltiptext, .tooltip-7 .tooltiptext, .tooltip-8 .tooltiptext, .tooltip-9 .tooltiptext, .tooltip-output .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 3;
+  top: 15px;
+  left: 105%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-1:hover .tooltiptext, .tooltip-2:hover .tooltiptext, .tooltip-3:hover .tooltiptext, .tooltip-4:hover .tooltiptext, .tooltip-5:hover .tooltiptext, .tooltip-6:hover .tooltiptext, .tooltip-7:hover .tooltiptext, .tooltip-8:hover .tooltiptext, .tooltip-9:hover .tooltiptext, .tooltip-output:hover .tooltiptext {
+  visibility: visible;
+}
