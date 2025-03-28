@@ -374,3 +374,12 @@ h1 {
   cursor: none;
 }
 
+#totalResult {
+  color: white;
+  font: Minecraftia;
+}
+
+#levelResult {
+  color: white;
+  font: Minecraftia;
+}
