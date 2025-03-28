@@ -376,10 +376,17 @@ h1 {
 
 #totalResult {
   color: white;
-  font: Minecraftia;
+  font-family: Minecraftia;
 }
 
 #levelResult {
   color: white;
-  font: Minecraftia;
+  font-family: Minecraftia;
+}
+
+.achievement {
+  font-family: Minecraftia;
+  color: white;
+  background-color: black;
+  border-radius: 10;
 }
