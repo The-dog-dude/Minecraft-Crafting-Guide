@@ -264,14 +264,14 @@ h1 {
 
 .item-grid {
   width: 30px;
-  position: relative;
+  position: absolute;
   z-index: 2;
 }
 
 .tooltip-1 {
   width: 30px;
   height: 30px;
-  position: relative;
+  position: absolute;
   left: 41.3%;
   top: 20px;
 }
@@ -279,7 +279,7 @@ h1 {
 .tooltip-2 {
   width: 30px;
   height: 30px;
-  position: relative;
+  position: absolute;
   left: 44%;
   top: 20px;
 }
@@ -287,7 +287,7 @@ h1 {
 .tooltip-3 {
   width: 30px;
   height: 30px;
-  position: relative;
+  position: absolute;
   left: 46.8%;
   top: 20px;
 }
@@ -295,7 +295,7 @@ h1 {
 .tooltip-4 {
   width: 30px;
   height: 30px;
-  position: relative;
+  position: absolute;
   left: 41.3%;
   top: 56px;
 }
@@ -303,7 +303,7 @@ h1 {
 .tooltip-5 {
   width: 30px;
   height: 30px;
-  position: relative;
+  position: absolute;
   left: 44%;
   top: 56px;
 }
@@ -311,7 +311,7 @@ h1 {
 .tooltip-6 {
   width: 30px;
   height: 30px;
-  position: relative;
+  position: absolute;
   left: 46.8%;
   top: 56px;
 }
@@ -319,7 +319,7 @@ h1 {
 .tooltip-7 {
   width: 30px;
   height: 30px;
-  position: relative;
+  position: absolute;
   left: 41.3%;
   top: 91px;
 }
@@ -327,7 +327,7 @@ h1 {
 .tooltip-8 {
   width: 30px;
   height: 30px;
-  position: relative;
+  position: absolute;
   left: 44%;
   top: 91px;
 }
@@ -335,7 +335,7 @@ h1 {
 .tooltip-9 {
   width: 30px;
   height: 30px;
-  position: relative;
+  position: absolute;
   left: 46.8%;
   top: 91px;
 }
@@ -343,7 +343,7 @@ h1 {
 .tooltip-output {
   width: 30px;
   height: 30px;
-  position: relative;
+  position: absolute;
   left: 55.7%;
   top: 56px;
 }
