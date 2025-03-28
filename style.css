@@ -373,3 +373,45 @@ h1 {
 #aaa {
   cursor: none;
 }
+
+@keyframes xp-burst {
+  0% {
+      transform: scale(0.5) translate(0, 0);
+      opacity: 1;
+  }
+  100% {
+      transform: scale(1.5) translate(var(--x), var(--y));
+      opacity: 0;
+  }
+}
+
+.xp-orb {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url('https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/00/Experience_Orb_Value_17-36.png/revision/latest/thumbnail/width/360/height/360?cb=20200216163127');
+  background-size: cover;
+  animation: xp-burst 0.8s ease-out forwards;
+}
+
+.xp-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#xp-input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+#xp-calculate-btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#xp-result {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: Minecraftia, sans-serif;
+}
